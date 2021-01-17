@@ -1,6 +1,6 @@
 body{
     background: #ffffff; 
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -8,6 +8,23 @@ body{
 header{
     background: #1332ac;
     color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal /*o 400, bold o 600*/;
+    /* font-style: italic; */   
+}
+h1{
+    font-size: 40px;
+    line-height:1.5;
+    letter-spacing: -.2px;
+    /*text-decoration: cornsilk;
+    text-transform:uppercase ; capitalize - Poner cada primera letra mayuscula */
 }
    /* #cabecera {
         background: #37488b;
