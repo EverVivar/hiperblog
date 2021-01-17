@@ -3,15 +3,21 @@
      <meta charset="UTF-8"><!-- conjunto de caracteres estoy usando -->
         <title>Ever Vivar</title><!-- Titulo de la pagina. -->
         <link rel="icon" type="image/png"href="Imagenes/dragon.png">
-        <link rel= "stylesheet" href="css/estilos.css"/>
+        <link rel= "stylesheet" href="Css/estilos.css"/>
+        <!-- <style>
+            /* LOS ESTILOS SON EN CASACADA POR LO TANTO VA DE ABAJO PARA ARRIBA */
+            header {
+            background: cornflowerblue;
+            }
+        </style> -->
     </head>
     <body>
-       <header>
+       <header class="header"><!-- Si tiene un style tiene mayor peso que la etiqueta style de arriba -->
            <div>
                <figure>
                    <img src="" alt="Logo de Ever Vivar"><!-- logo -->
                </figure>        
-            <nav><!-- menu de navegacion  -->                
+            <nav class="menu nave"><!-- menu de navegacion  -->                
                 <ol><!-- ol listas ordenadas y ul listas desordenas -->
                     <li><!-- enlaces -->
                         <a href="#"><!-- se convierte en un enlace -->
@@ -19,26 +25,24 @@
                         </a>
                     </li>
                     <li><!-- enlaces -->
-                        <a href="">
+                        <a href="#">
                             Experiencia
                         </a>
                     </li>
                     <li><!-- enlaces -->
-                        <a href="">
-                            Contacto
-                        </a>
+                        <a href="https://github.com/evervivarr" target="_blank">GitHub</a>
                     </li>
                 </ol>
             </nav>
             </div>
        </header>
-       <section><!-- Seccion Principal -->
+       <section class="hero"><!-- Seccion Principal -->
             <h1>Me llamo <strong>Ever Vivar Velasquez</strong>,<br/> Ing. Sistemas Computacionales<br/>
                 solucionador de problemas webs.
-            </h1>
-            <img src="Imagenes/Portada2.jpg" width="500" height="300" alt="Imagen principal de la pagina"> <!-- Imagen de portada -->
+            </h1>            
+                <img src="Imagenes/Portada2.jpg" width="500" height="300" alt="Imagen principal de la pagina"> <!-- Imagen de portada -->
         </section>
-        <section><!-- Seccion Portafolio -->
+        <section class="portafolio"><!-- Seccion Portafolio -->
             <h2>Portafolio(Proyectos Destacados)</h2>
             <article>
                 <h3>Artic Polygonal</h3>
@@ -54,10 +58,18 @@
                 <figure>
                     <img src="Imagenes/portada.jpg" width="500" alt="">
                 </figure>      
-                <h3>Mi madre se llama Lili Velasquez y es Abogada</h3>
+                <h3>Mi madre se llama Lili Velasquez y es Abogada.</h3>
             </article>
         </section>
-        <section>Seccion Contacto</section>
+        <section><!-- Seccion Contacto -->
+            <form action="/suscripcion/">
+                <!-- <label for="email">Dejame tu email</label> -->
+                <h3>Contactame</h3>
+                <input type="text" placeholder="Dejame tu email" id="email"><!-- value="@gmail.com escribir en un cuadradito -->
+                <!-- <input type="submit" value="texto del boton"> -->
+                <button>Enviar</button>
+            </form>
+        </section>
         <footer><h1>Pie de Pagina</h1></footer>
     </body>
 </html>
