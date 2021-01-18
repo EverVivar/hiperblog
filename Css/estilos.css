@@ -261,6 +261,10 @@ body {
   .social-link.instagram{
     background-image: url('../Imagenes/instagram.svg');    
   }
+.social-link.linkedin{
+  background-image: url('../Imagenes/linkedin-transparent.png'); 
+  border-color: white;
+}
   .form-email input{
     border-color: gray;
     border-style: solid;
