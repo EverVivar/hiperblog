@@ -91,6 +91,12 @@ body {
   .project-url {
     margin: 10px 0;
   }
+
+  .project-url a{
+    margin: 10px 0;
+    color: #1b2127;
+    text-decoration: none;
+  }
   .project-description {
     font-size: 20px;
   }
@@ -136,10 +142,6 @@ body {
     margin: 0;
   }
   
-  .header a {
-    color: white;
-    text-decoration: none;
-  }
   .menu {
     height: inherit;
   }
@@ -155,6 +157,8 @@ body {
     align-items: center;
     height: inherit;
     padding: 0 10px;
+    color: white;
+    text-decoration: none;
   }
   
   .flexbox {
