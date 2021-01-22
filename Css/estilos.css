@@ -18,8 +18,7 @@ body {
     font-size: 40px;
     line-height: 1.5;
     letter-spacing: -.2px;
-    color: white;
-    margin: 0;
+    color: white;    
     /* margin: 100px 150px 70px 30px; */
     /* text-transform: uppercase; */
     /* text-decoration: dashed; */
@@ -46,7 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
+    /* padding: 0 40px; */
   }
   
   .hero-image{
@@ -92,20 +91,22 @@ body {
     margin: 10px 0;
   }
 
-  .project-url a{
+  .project-url a{ 
     margin: 10px 0;
     color: #1b2127;
     text-decoration: none;
   }
+
+  .project-url a:hover{
+    color: brown;
+  }
+
   .project-description {
     font-size: 20px;
   }
   .project strong {
     font-family: 'Fjalla One', sans-serif;
   }
-  /* .project-date {
-    margin: 10px 0;
-  } */
   
   .project-title {
     font-size: 30px;
@@ -129,6 +130,7 @@ body {
     height: 70px;
     align-items: center;
     justify-content: space-between;
+    padding: 0 40px;
   }
   
   ol,
@@ -196,17 +198,19 @@ body {
   .event-list {
     display: flex;
     flex-wrap: wrap;
+    /* padding: 0 40px 20px; */
   }
   .event-list-title {
-    margin-left: 20px;
+    padding: 0 40px;
   }
   .event { 
-    margin: 10px;
+    margin: 9px;
     width: 480px;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
     background: #f4fbff;
+    border: 1px solid black;
   }
   .event img {
     width: 480px;
@@ -216,10 +220,13 @@ body {
   .event-detail {
     margin: 20px 40px;
     margin-top: -40px;
-    background-color: white;
+    background-color:white;
     position: relative;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
+    /*border: 1px solid black;*/
+    
   }
   .event-description {
     text-align: left;
@@ -290,3 +297,13 @@ body {
     margin-top: 10px;
   }
   
+  .container {
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+  }

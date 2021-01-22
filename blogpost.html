@@ -9,7 +9,8 @@
     </head>
     <body>
        <header class="header"><!-- Si tiene un style tiene mayor peso que la etiqueta style de arriba -->
-               <figure class="logo">
+        <div class="container">       
+        <figure class="logo">
                    <img src="Imagenes/dragon.png" width="40px" alt="Logo de Ever Vivar"><!-- logo -->
                     
                 </figure>        
@@ -29,15 +30,18 @@
                         <a href="#">Contacto</a>
                     </li>
                 </ol>
-            </nav>            
+            </nav>  
+        </div>              
        </header>
        <section class="hero"><!-- Seccion Principal -->
-            <h1>¡Hola! Me llamo <strong>Ever Vivar Velásquez</strong><br/> Ing. <strong>Sistemas Computacionales</strong><br/>
+        <div class="container">
+            <h1>¡Hola! Me llamo <strong>Ever Vivar</strong><br/> Ing. <strong>Sistemas Computacionales</strong><br/>
                 <strong>Solucionador</strong> de problemas webs
             </h1>            
                 <img src="Imagenes/Portada2.jpg" width="500" height="300" alt="Imagen principal de la pagina">
         </section>
         <section class="portfolio"><!-- Seccion Portafolio -->
+        <div class="container">
             <h2>Portafolio (Proyectos Destacados)</h2>
             <article class="project">
                 <div class="project-details">
@@ -52,68 +56,75 @@
                     <img class="project-image" src="Imagenes/Creacion01.png" width="500" alt="">
                 </figure>                
             </article>
+        </div>
+        </div>
         </section>
-        <h2 class="event-list-title">Mis logros</h2>
+        <div class="container">
+        <h2 class="event-list-title">Participaciones</h2>
+        </div>
         <section id="eventos" class="event-list"> <!-- Seccion Eventos -->
+        <div class="container">    
             <article class="event">
                 <figure class="event-imageContainer">
-                    <img class="event-image" src="Imagenes/portada.jpg" width="500" alt="">
+                    <img class="event-image" src="Imagenes/certificado-github.jpg" width="100" height="150">
                 </figure> 
                 <div class="event-detail">
-                <h3 class="event-title">Lili Velasquez y es Abogada.</h3>
-                <a class="event-url" href="https://www.facebook.com/lilirosalin.velasquezmacines"target="_blank">Conocer</a>
+                <h3 class="event-title">Curso de Git y GitHub</h3>
+                <a class="event-url" href="https://cdn.pixabay.com/photo/2021/01/22/01/30/01-30-18-209_960_720.jpg"target="_blank"> Ver Imagen Completa</a>
             </div> 
             </article>
             <article class="event">
                 <figure class="event-imageContainer">
-                    <img class="event-image" src="Imagenes/yuri.jpg" width="500" alt="">
+                    <img class="event-image" src="Imagenes/certificado-desarrolloweb.jpg" width="500" alt="">
                 </figure> 
                 <div class="event-detail">
-                <h3 class="event-title">Yuri Vivar y es Economista</h3>
-                <a class="event-url" href="https://www.facebook.com/adlayyuri.vivarmiranda"target="_blank">Conocer</a>
+                <h3 class="event-title">Curso de Desarrollo Web Online</h3>
+                <a class="event-url" href="https://cdn.pixabay.com/photo/2021/01/22/01/42/01-42-09-756_960_720.jpg"target="_blank">Ver Imagen Completa</a>
             </div> 
             </article>
             <article class="event">
                 <figure class="event-imageContainer">
-                    <img class="event-image" src="Imagenes/mamamary.jpg" width="500" alt="">
+                    <img class="event-image" src="Imagenes/Certificado-angularUpn.jpg" width="500" alt="">
                 </figure> 
                 <div class="event-detail">
-                <h3 class="event-title"> Maria Macines y es Cocinera MasterChef.</h3>
-                <a class="event-url" href="#"target="_blank">Conocer</a>
+                <h3 class="event-title"> Taller de Angular.</h3>
+                <a class="event-url" href="#">Ver Imagen Completa</a>
             </div> 
             </article>
             <article class="event">
                 <figure class="event-imageContainer">
-                    <img class="event-image" src="#" width="500" alt="">
+                    <img class="event-image" src="Imagenes/certificad-desarrollomoviles.jpg" width="500" alt="">
                 </figure> 
                 <div class="event-detail">
-                <h3 class="event-title">Monica Macines y es Administradora.</h3>
-                <a class="event-url" href="#"target="_blank">Conocer</a>
+                <h3 class="event-title">Curso de Desarrollo de Apps Móviles</h3>
+                <a class="event-url" href="#">Ver Imagen Completa</a>
             </div> 
             </article>
             <article class="event">
                 <figure class="event-imageContainer">
-                    <img class="event-image" src="Imagenes/Portada2.jpg" width="500" alt="">
+                    <img class="event-image" src="Imagenes/enproceso.png" width="500" alt="">
                 </figure> 
                 <div class="event-detail">
-                <h3 class="event-title">Percy Velasquez Macines y es Ing. de Sistemas.</h3>
-                <a class="event-url" href="#"target="_blank">Conocer</a>
+                <h3 class="event-title">Muy Pronto</h3>
+                <a class="event-url" href="#">Ver Imagen Completa</a>
             </div> 
             </article>
             <article class="event">
                 <figure class="event-imageContainer">
-                    <img class="event-image" src="Imagenes/lu.jpg" width="500" alt="">
+                    <img class="event-image" src="Imagenes/enproceso.png" width="500" alt="">
                 </figure> 
                 <div class="event-detail">
-                <h3 class="event-title">Luana Cabrera y es Ing. Empresarial.</h3>
-                <a class="event-url" href="#"target="_blank">Conocer</a>
+                <h3 class="event-title">Muy Pronto</h3>
+                <a class="event-url" href="#">Ver Imagen Completa</a>
             </div> 
             </article>
+            </div>
         </section>
         <section id="contacto" class="contact"><!-- Seccion Contacto -->
+            <div class="container">
             <form action="/suscripcion/" class="form-email">
                 <!-- <label for="email">Dejame tu email</label> -->
-                <h3>Contactame</h3>
+                <h3>Contáctame</h3>
                 <input type="text" placeholder="Dejame tu email" id="email"><!-- value="@gmail.com escribir en un cuadradito -->
                 <!-- <input type="submit" value="texto del boton"> -->
                 <button>Enviar</button>
@@ -125,12 +136,15 @@
                 <a href="https://www.instagram.com/evervivarr" target="_blank"class="social-link instagram"></a>              
                 <a href="https://www.linkedin.com/in/evervivarr" target="_blank"class="social-link linkedin"></a>              
             </div>
+        </div>
         </section>
-        <footer class="footer">
+        <footer class="footer"><!-- footer -->
+        <div class="container">
             <div>Copiright 2021, Todos los derechos reservados.</div>
             <div>
                 <p>Designed with <strong>amor</strong>:<a href="https://twitter.com/evervivarr">@evervivarr</a></p>
             </div>
+        </div>
         </footer>
     </body>
 </html>
