@@ -130,7 +130,7 @@ body {
   }
 
   .project-details {
-    width: 500px;
+    width: 50%;
   }
 
   .project-title {
@@ -162,9 +162,13 @@ body {
   }
   
   .project-imageContainer {
-    width: 500px;
+    width: 50%;
   }
   
+  .project-imageContainer img{
+    max-width: 100%;
+    
+  }
   /*event*/
   
   .event-list-title {
@@ -329,10 +333,49 @@ body {
    .header a{
      justify-content: center;
    }
+
+   .project{
+     display: block;
+   }
+
+   .project-imageContainer{
+     width: auto;
+     text-align: center;
+   }
+
+   .project-details{
+     width: auto;
+     /* font-size: 16px; */
+   }
+   .project-course,   .project-date,  .project-url {
+    margin: .3em 0;
+  }
+   .project-title{/*padre*/
+    font-size: 1.5em;
+    margin-bottom: .3em;
+   }
+
+   .project-url{
+    font-size: 1em;
+   }
+
+   .project-course{
+    font-size: .7em;
+   }
+
+   .project-date{
+    font-size: 1em;
+   }
+
+   .project-description{
+    font-size: .9em;
+   }
   }
 
   @media screen and (max-width: 480px) { /* [Estilos css para dispositivos cuyo ancho maximo son 480px] */
-    
+    .project-details{     
+      font-size: 12px;
+    }
   }
 
   @media screen and (max-width: 320px) { 
