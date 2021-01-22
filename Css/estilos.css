@@ -307,3 +307,21 @@ body {
     height: inherit;
     flex-wrap: inherit;
   }
+  @media screen and (max-width: 1024px) { 
+    
+  }
+    
+  @media screen and (max-width: 768px) { 
+    body{
+      border: 10px solid green;
+    
+    } 
+  }
+
+  @media screen and (max-width: 480px) { /* [Estilos css para dispositivos cuyo ancho maximo son 480px] */
+    
+  }
+
+  @media screen and (max-width: 320px) { 
+    
+  }
