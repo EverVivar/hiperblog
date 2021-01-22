@@ -181,8 +181,8 @@ body {
   }
 
   .event { 
-    margin: 9px;
-    width: 480px;
+    margin: 1%;
+    width: 47%; 
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
@@ -195,7 +195,7 @@ body {
     height: 200px;
     object-fit: cover;
   }
-
+  
   .event-detail {
     margin: 20px 40px;
     margin-top: -40px;
@@ -297,6 +297,7 @@ body {
   
   .footer a {
     color: white;
+    text-decoration: none;
   }  
   
   .container {
@@ -313,7 +314,9 @@ body {
   }
 
   @media screen and (max-width: 1024px) { 
-    
+    .container{
+      padding: 0 1em;
+    }
   }
     
   @media screen and (max-width: 767px) { /*ipad - 768px*/
@@ -370,11 +373,47 @@ body {
    .project-description{
     font-size: .9em;
    }
+
+   .event{
+     width: auto;
+     flex-shrink: initial;
+   }
+
+   .event img{ 
+     width: 100%;
+     /*object-position: 0% 10%;/*Centrar mejor la imagen*/
+   }
   }
 
   @media screen and (max-width: 480px) { /* [Estilos css para dispositivos cuyo ancho maximo son 480px] */
     .project-details{     
       font-size: 12px;
+    }
+
+    .event-detail{
+      margin: -2em .5em .5em;
+      padding: 1em;
+    }
+
+    .contact{
+     height: auto;  
+     padding: 1.5em 0;
+     text-align: center;
+     display: block;
+    }
+
+    .form-email button{
+      margin: 1em auto;
+    }
+
+    .form-email h3{
+      margin-top: 0;
+    }
+
+    .footer{
+      display: block;
+      text-align: center;
+      border: 1px solid transparent;
     }
   }
 
