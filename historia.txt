@@ -1,9 +1,6 @@
-Esta es la historia de Ever Vivar
-
-Ever Vivar tiene 21 años y nació en Trujillo - Peru
-
-Percy Macines es una persona que contribuye en este proyecto open source.
-
-Hoy hablaremos de nuestra historia.
-
-Sobrevivimos 2020.
+  ...
+  for(int ever; ever<ganasdeaprender; ever++){
+  cout << Esta parte de mi vida la llamo: programar sin parar. <<endl;
+  }
+  return 0;
+}
