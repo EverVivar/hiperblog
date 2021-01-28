@@ -85,12 +85,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 0 40px; */
+    padding:0 0 3.5em; 
     flex-wrap: wrap;
   }
   
   .hero-image{
-    object-fit: cover;
+    object-fit: cover;   
   }
   
   /*portafolio*/
@@ -264,19 +264,19 @@ body {
   }
   
   .social-link.twitter{
-    background-image: url('../Imagenes/twitter.svg');    
+    background-image: url('../imagenes/twitter.svg');    
   }
   .social-link.facebook{
-    background-image: url('../Imagenes/facebook.svg');    
+    background-image: url('../imagenes/facebook.svg');    
   }
   .social-link.github{
-    background-image: url('../Imagenes/github.svg');    
+    background-image: url('../imagenes/github.svg');    
   }
   .social-link.instagram{
-    background-image: url('../Imagenes/instagram.svg');    
+    background-image: url('../imagenes/instagram.svg');    
   }
 .social-link.linkedin{
-  background-image: url('../Imagenes/linkedin-transparent.png'); 
+  background-image: url('../imagenes/linkedin-transparent.png'); 
   border-color: white;
 }
   
@@ -323,7 +323,7 @@ body {
     position: relative;/*tiene que ver una posicion relativa sino
     el absolute se va hasta el fondo(top)*/
     overflow: hidden;
-    padding: 2em;
+    padding: 0 0 3.5em; /*AGRANDAR EL LOGO DE LA PAGINA*/
   }
 
   .hero-image{
@@ -334,13 +334,18 @@ body {
     top: 0;
     bottom: 0;
     width: 100%;
-    object-position: center 25%;
+    /* object-position: center 45%; */
   }
 
   h1{
     font-size: 2em;
     z-index: 2;
     text-shadow: 1px 2px 2px #000;
+  }
+
+  .html-video{
+    width: 50%;
+    height: auto;
   }
 
   @media screen and (max-width: 767px) { /*ipad - 768px*/
