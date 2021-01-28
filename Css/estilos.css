@@ -264,19 +264,19 @@ body {
   }
   
   .social-link.twitter{
-    background-image: url('../imagenes/twitter.svg');    
+    background-image: url('../Imagenes/twitter.svg');    
   }
   .social-link.facebook{
-    background-image: url('../imagenes/facebook.svg');    
+    background-image: url('../Imagenes/facebook.svg');    
   }
   .social-link.github{
-    background-image: url('../imagenes/github.svg');    
+    background-image: url('../Imagenes/github.svg');    
   }
   .social-link.instagram{
-    background-image: url('../imagenes/instagram.svg');    
+    background-image: url('../Imagenes/instagram.svg');    
   }
 .social-link.linkedin{
-  background-image: url('../imagenes/linkedin-transparent.png'); 
+  background-image: url('../Imagenes/linkedin-transparent.png'); 
   border-color: white;
 }
   
