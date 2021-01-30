@@ -1,8 +1,163 @@
 <html>
-    <head>
-        <title>HOLA</title>
+    <head>  
+     <meta charset="UTF-8"><!-- conjunto de caracteres estoy usando -->
+        <title>Ever Vivar</title><!-- Titulo de la pagina. -->
+        <link rel="icon" type="image/png"href="Imagenes/dragon.png">
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital@1&display=swap" rel="stylesheet">    
+        <!-- <link rel="stylesheet" href="Css/viewport.css" media="screen and (max-width: 768px)"> -->
+        <link rel= "stylesheet" href="Css/estilos.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- content="width initial-scale maximum-scale" -->
     </head>
     <body>
-        <h1>EVER VIVAR</h1>
+       <header class="header"><!-- Si tiene un style tiene mayor peso que la etiqueta style de arriba -->
+        <div class="container">       
+        <figure class="logo">
+                  <a href="https://evervivarr.github.io/Blog-Personal/blogpost.html" > <img src="Imagenes/dragon.png" width="40px" alt="Logo de Ever Vivar"></a><!-- logo -->
+                    
+                </figure>        
+            <nav class="menu"><!-- menu de navegacion  -->                
+                <ol><!-- ol listas ordenadas y ul listas desordenas -->
+                    <li><!-- enlaces -->
+                        <a class="link" href="#">| INICIO </a>
+                    </li>
+                    <li><!-- enlaces -->
+                        <a class="link" href="#">| SOBRE MÍ</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">| PORTAFOLIO </a>
+                    </li>
+                    <li>
+                        <a class="link"href="#">| CONTACTO</a>
+                    </li>
+                </ol>
+            </nav>  
+        </div>              
+       </header>
+       <section class="hero"><!-- Seccion Principal -->
+        <div class="container">
+            <h1>¡Hola! Me llamo <strong>Ever Vivar</strong><br/> Ing. <strong>Sistemas Computacionales</strong><br/>
+                <strong>Solucionador</strong> de problemas webs
+            </h1>            
+                <img class="hero-image" src="Imagenes/setup2021.jpg" width="500" height="300" alt="Imagen principal de la pagina">
+        </section> 
+        <section class="portfolio"><!-- Seccion Portafolio--> 
+        <div class="container">
+            <h2>Portafolio (Proyectos Destacados)</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Artic Polygonal</h3>
+                    <h5 class="project-course">Hecho en C++</h5>
+                    <p class="project-date"> <small> <strong>Fecha: </strong>18/01/2021</small></p>
+                    <p class="project-url"><small><strong>Puedes ver el código <a href="https://github.com/evervivarr/Artic-Polygonal " target="_blank">picando aquí</a>.</strong></small></p>
+                    <p class="project-description">La ilustración fue desarrollada aplicando los conocimientos
+                        de C++ y OpenGL brindados por la Universidad Privada del Norte. </p>
+                </div>
+                <figure class="project-imagecontainer"><!-- evitar concordancia se pone container alado-->
+                    <img class="project-image" src="Imagenes/Creacion01.png" width="500" alt="">
+                </figure>                
+            </article>
+        </div>   
+        <div class="container">            
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Simulador de Bouncing DVD Logo Screensaver </h3>
+                    <h5 class="project-course">Hecho en C++</h5>
+                    <p class="project-date"> <small> <strong>Fecha: </strong>28/01/2021</small></p>
+                    <p class="project-url"><small><strong>Puedes ver el código <a href="#" >picando aquí</a>.</strong></small></p>
+                    <p class="project-description">La ilustración fue desarrollada aplicando los conocimientos
+                        de C++ y OpenGL brindados por la Universidad Privada del Norte. </p>
+                </div>
+
+                <video class="html-video" src="videos/dvdsimulater.mp4" width="500" height="300" controls poster="imagenes/dvd.png"></video>
+                               
+            </article>
+        </div>      
+        </section>
+        <div class="container">
+        <h2 class="event-list-title">Participaciones</h2>
+        </div> 
+        <section id="eventos" class="event-list"> <!-- Seccion Eventos -->
+        <div class="container">    
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="Imagenes/certificado-github.jpg" >
+                </figure> 
+                <div class="event-detail">
+                <h3 class="event-title">Curso de Git y GitHub</h3>
+                <a class="event-url" href="https://cdn.pixabay.com/photo/2021/01/22/01/30/01-30-18-209_960_720.jpg"target="_blank"> Ver Imagen Completa</a>
+            </div> 
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="Imagenes/certificado-desarrolloweb.jpg" alt="">
+                </figure> 
+                <div class="event-detail">
+                <h3 class="event-title">Curso de Desarrollo Web Online</h3>
+                <a class="event-url" href="https://cdn.pixabay.com/photo/2021/01/22/01/42/01-42-09-756_960_720.jpg"target="_blank">Ver Imagen Completa</a>
+            </div> 
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="Imagenes/Certificado-angularUpn.jpg" alt="">
+                </figure> 
+                <div class="event-detail">
+                <h3 class="event-title"> Taller de Angular.</h3>
+                <a class="event-url" href="#">Ver Imagen Completa</a>
+            </div> 
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="Imagenes/certificad-desarrollomoviles.jpg" alt="">
+                </figure> 
+                <div class="event-detail">
+                <h3 class="event-title">Curso de Desarrollo de Apps Móviles</h3>
+                <a class="event-url" href="#">Ver Imagen Completa</a>
+            </div> 
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="Imagenes/enproceso.png" alt="">
+                </figure> 
+                <div class="event-detail">
+                <h3 class="event-title">Muy Pronto</h3>
+                <a class="event-url" href="#">Ver Imagen Completa</a>
+            </div> 
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="Imagenes/enproceso.png" alt="">
+                </figure> 
+                <div class="event-detail">
+                <h3 class="event-title">Muy Pronto</h3>
+                <a class="event-url" href="#">Ver Imagen Completa</a>
+            </div> 
+            </article>
+            </div>
+        </section> 
+        <section id="contacto" class="contact"><!-- Seccion Contacto -->
+            <div class="container">
+            <form action="/suscripcion/" class="form-email">                
+                <h3>Contáctame</h3>
+                <input type="text" placeholder="Déjame tu email" id="email"><!-- value="@gmail.com escribir en un cuadradito-->
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <a href="https://www.facebook.com/evervivarr" target="_blank"class="social-link facebook"></a>
+                <a href="https://twitter.com/evervivarr" target="_blank"class="social-link twitter"></a>              
+                <a href="https://github.com/evervivarr" target="_blank"class="social-link github" ></a>              
+                <!-- <a href="https://www.instagram.com/evervivarr" target="_blank"class="social-link instagram"></a>               -->
+                <a href="https://www.linkedin.com/in/evervivarr" target="_blank"class="social-link linkedin"></a>              
+            </div>
+        </div>
+        </section> 
+        <footer class="footer"><!-- footer --> 
+        <div class="container">
+            <div>Copiright 2021, Todos los derechos reservados.</div>
+            <div>
+                <p>Designed with <strong>💕 </strong>by <a href="https://twitter.com/evervivarr">.../evervivarr</a></p>
+            </div>
+        </div>
+        </footer>  
     </body>
 </html>
