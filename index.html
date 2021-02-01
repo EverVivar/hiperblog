@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- content="width initial-scale maximum-scale" -->
     </head>
     <body>
-        <i class="icon-menu burger-button"></i>
+        <i class="icon-menu burger-button" id="burger-menu" ></i>
        <header class="header"><!-- Si tiene un style tiene mayor peso que la etiqueta style de arriba -->
         <div class="container">       
         <figure class="logo">
@@ -160,5 +160,25 @@
             </div>
         </div>
         </footer>  
+        <script>
+            //console.log('Hola mundo'); /*Mostrar en console*/
+            
+            // document.querySelector('.menu').classList.add('is-active')
+            const menu = document.querySelector('.menu');
+            //console.log(menu);
+            const burgerButton = document.querySelector('#burger-menu');
+            //console.log(burgerButton);
+            
+            burgerButton.addEventListener('click', hideShow);
+           
+            function hideShow(){
+                menu.classList.toggle('is-active');
+
+                // if(menu.classList.contains('is-active')){
+                //     menu.classList.remove('is-active');
+                // }else
+                // menu.classList.add('is-active');      
+            }
+       </script>
     </body>
 </html>
