@@ -2,13 +2,13 @@
 <html lang="en">
     <head>  
         <meta charset="UTF-8">
-           <title>Viajes | Ever Vivar</title>
+           <title>Sorpresa | Ever Vivar</title>
            <link rel="icon" type="image/png"href="Imagenes/dragon.png">           
            <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital@1&display=swap" rel="stylesheet">    
            <link rel= "stylesheet" href="Css/estilos.css"/>
            <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- content="width initial-scale maximum-scale" -->
        </head>
-<body>
+<body class="surprise-body">
     <i class="icon-menu burger-button" id="burger-menu" ></i>
     <header class="header"><!-- Si tiene un style tiene mayor peso que la etiqueta style de arriba -->
      <div class="container">       
@@ -25,15 +25,138 @@
                      <a class="link" href="#">| PORTAFOLIO </a>
                  </li>
                  <li>
-                     <a class="link" href="#">| VIAJES </a>
+                     <a class="link" href="viajes.html">| SORPRESA </a>
                  </li>
                  <li>
-                     <a class="link"href="#">| CONTACTO</a>
+                     <a class="link"href="#contacto">| CONTACTO</a>
                  </li>
              </ol>
          </nav>  
-     </div>              
+     </div>                   
     </header>
-    <SECTION></SECTION>
+    <section class="hero-surprise"><!-- Seccion Principal -->
+        <div class="container">
+            <h1>¡Hola! Buenas madrugadas, <strong> <BR>¡FELÍZ 600 DIAS JUNTOS, AMOR!</BR></strong> siendo enamorados. <strong>TE AMO ❤️</strong><br/>
+                <strong>INICIO DE RELACIÓN:</strong> 18/06/2019
+            </h1>            
+                <img class="hero-surprise-image" src="Imagenes/portada2.jpg" width="500" height="300" alt="Imagen principal de la pagina">
+        </section>
+
+        <div class="container">
+            <h2 class="event-list-title">Viajes juntos </h2>
+        </div> 
+        <section class="container-slider">
+            <div class="slider" id="slider">
+                <div class="slider-section">
+                    <img src="Imagenes/tortugas02.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/tortugas03.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/tortugas04.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/tortugas05.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/tortugas06.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/tortugas07.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/tortugas08.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/tortugas09.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/tortugas10.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/malabrigo00.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/malabrigo01.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/malabrigo02.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/malabrigo03.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/malabrigo04.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="Imagenes/malabrigo05.jpg" alt="" class="slider-img">
+                </div>
+            </div>    
+            <div class="slider-btn slider-btn-rigth" id="btn-right">></div>
+            <div class="slider-btn slider-btn-left" id="btn-left" ><</div>            
+        </section>
+        <div class="container">
+            <h4 class="event-list-title">Gracias, amor por darme cariño durante 600 dias y mas ultimamente ya que andamos a distancia.</h4>
+        </div> 
+        <section id="contacto" class="contact"><!-- Seccion Contacto -->
+            <div class="container">
+            <form action="/suscripcion/" class="form-email">                
+                <h3>Contáctame</h3>
+                <input type="text" placeholder="Déjame tu email" id="email"><!-- value="@gmail.com escribir en un cuadradito-->
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <a href="https://www.facebook.com/evervivarr" target="_blank"class="social-link icon-facebook"></a>
+                <!-- <a href="https://www.instagram.com/evervivarr/" target="_blank"class="social-link icon-instagram"></a>  -->
+                <a href="https://twitter.com/evervivarr" target="_blank"class="social-link icon-twitter"></a>                                             
+                <a href="https://github.com/evervivarr" target="_blank"class="social-link icon-github" ></a>              
+                <!-- <a href="https://www.linkedin.com/in/evervivarr" target="_blank"class="social-link icon-linkedin"></a>  -->
+                <!-- <a href="https://www.youtube.com/channel/UCJGj-26sx3H9X3UcbQh02Bw" target="_blank"class="social-link icon-youtube"></a>              -->
+                <!-- <a href="https://t.me/evervivarr" target="_blank"class="social-link icon-telegram"></a>                -->
+            </div>
+        </div>
+        </section> 
+        <footer class="footer"><!-- footer --> 
+        <div class="container">
+            <div>Copiright 2021, Todos los derechos reservados.</div>
+            <div>
+                <p>Designed with <strong>❤️ </strong>by ~/evervivarr</p>
+            </div>
+        </div>
+        </footer>       
+        <script src="slider.js"></script>  
+        <script>
+            //console.log('Hola mundo'); /*Mostrar en console*/         
+            //window.matchMedia('screen and(max-width:767px )');
+            // document.querySelector('.menu').classList.add('is-active')
+            const ipad = window.matchMedia('screen and(max-width:767px )');
+            const menu = document.querySelector('.menu');
+            const burgerButton = document.querySelector('#burger-menu');
+
+            
+            ipad.addListener(validate);
+            validate(ipad);
+
+            burgerButton.addEventListener('click', hideShow);
+
+            function validate(event){
+                if(event.matches){
+                    burgerButton.addEventListener('click', hideShow);
+                }else{
+                burgerButton.removeEventListener('click', hideShow);
+                }                
+            }
+            
+            function hideShow(){
+                //menu.classList.toggle('is-active');
+                if(menu.classList.contains('is-active')){
+                   menu.classList.remove('is-active');
+                }else{
+                   menu.classList.add('is-active');
+                 }                      
+            }
+
+       </script>
 </body>
 </html>

@@ -84,7 +84,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 22px;
-    margin-bottom: 40px;
+    margin: 10px;
   }
 
   .burger-button{
@@ -172,15 +172,13 @@ body {
   .hero-image{
     object-fit: cover;   
   }
-  
+ 
   /*portafolio*/
 
   .portfolio {
-    /* background: #dcdcdc; */
-    /* background: rgb(240, 242, 245); */
     padding: 20px; 
   }
-  
+
   .project {
     /* border-top: 10px solid red;
     border-right: 10px solid green;
@@ -361,22 +359,6 @@ body {
     background-image: url('../Imagenes/twitter.svg');    
   } */
 
-  /* .social-link.facebook{
-    background-image: url('../Imagenes/facebook.svg');    
-  } */
-
-  /* .social-link.github{
-    background-image: url('../Imagenes/github.svg');    
-  } */
-
-  /*.social-link.instagram{
-    background-image: url('../Imagenes/instagram.svg');    
-  }*/
-
-/* .social-link.linkedin{
-  background-image: url('../Imagenes/linkedin-transparent.png');   
-} */
-
 .social-link.icon-linkedin:hover{
   background-color:#007bb6;   
   border-radius: 40px;
@@ -459,7 +441,87 @@ body {
     width: 50%;
     height: auto;
   }
+  /*SORPRESA 600 DIAS, AMOR */
   
+  .surprise-body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    background:#f7f7f7;
+  }
+  .hero-surprise {
+    height: 300px;   
+    background-color: rgb(234, 187, 201);   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    flex-wrap: wrap;
+  }
+  
+  .hero-surprise-image{
+    object-fit: cover;   
+  }
+
+  .hero-surprise h1 {
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;  
+    margin: 0;  
+    font-weight: bold;
+  }
+  .hero-surprise h1 strong {
+    color: rgb(162, 34, 53);    
+  }
+
+  .container-slider{
+    /* width: 90%; */
+    max-width: 1000px;
+    margin: 15px auto;
+    overflow: hidden;
+    /* box-shadow: 0 0 0 10px #fff,
+                0 15px 50px; */
+    border: 10px solid black;            
+    position: relative;
+  }
+  .slider{
+    display: flex;
+    width: 400%;
+    height: 600px;
+    margin-left: -100%;
+  }
+  .slider-section{
+    width: 100%;
+  }
+  .slider-img{
+    display: block;
+    width: 1000px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slider-btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .slider-btn:hover{
+    background: white;
+  }
+  .slider-btn-rigth{
+    right: 10px;
+  }
+
+  .slider-btn-left{
+    left: 10px;
+  }
   @media screen and (max-width: 1023px) {
     
   .container{
@@ -471,7 +533,7 @@ body {
   .portfolio{
     padding: 0;
   }
-  .hero{
+  .hero, .hero-surprise{
     height: auto;
     position: relative;/*tiene que ver una posicion relativa sino
     el absolute se va hasta el fondo(top)*/
@@ -479,7 +541,7 @@ body {
     padding: 2em; /*AGRANDAR EL LOGO DE LA PAGINA*/
   }
 
-  .hero-image{
+  .hero-image, .hero-surprise-image{
     position: absolute;
     z-index: 1;
     left: 0;
@@ -495,6 +557,7 @@ body {
     z-index: 2;
     text-shadow: 1px 2px 2px #000;
   }
+
 }
   @media screen and (max-width: 767px) { /*ipad - 768px*/
 
@@ -645,7 +708,7 @@ body {
     .menu{
       height: 27.1vh; 
     }
-    
+
   }
 
   @media screen and (max-width: 320px) { 
